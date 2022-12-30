@@ -1,0 +1,392 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    margin: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn button{
+    padding: 10px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border-color: hsl(322, 100%, 66%);
+    border-radius: 2em;
+    box-shadow: 0px 3px 13px rgba(0,0,0,0.2);
+    color: hsl(322, 100%, 66%);
+}
+button:hover{
+    cursor: pointer;
+}
+.build{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+.build h1{
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+.build p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    margin-top: -.5em;
+}
+.build button{
+    padding: 15px 50px;
+    background-color: hsl(321, 100%, 78%);
+    border: none;
+    border-radius: 2em;
+    margin-top: 2em;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 3px 13px rgba(0,0,0,0.2);
+}
+.build img{
+    width: 63%;
+    margin-top: 5em;
+    display: block;
+}
+.build-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20em;
+    margin-top: 5em;
+}
+.build-number .number{
+    display: flex;
+    flex-direction: column;
+}
+.number img{
+    width: 30%;
+}
+.number h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 3.5em;
+    margin-top: 1px;
+    color: hsl(192, 100%, 9%);
+}
+.number p{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: -30px;
+    color:  hsl(210, 5%, 67%);
+}
+.curve img{
+    width: 100%;
+}
+.grow-image{
+    width: 40%;
+}
+.grow-text{
+    width: 60%;
+    margin-left: 5em;
+}
+.grow{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 253, 249);
+    width: 100%;
+    margin-top: -4px;
+    padding: 30px;
+}
+.grow-image img{
+    width: 100%;
+}
+.grow-text h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 3.5em;
+}
+.grow-text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.reverse{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.rev-text{
+    width: 60%;
+    margin-left: 5em;
+}
+.rev-image{
+    width: 40%;
+}
+.rev-image img{
+    width: 100%;
+}
+.rev-text h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 3.5em;
+}
+.rev-text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.ready{
+    text-align: center;
+    padding: 30px;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+.ready h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+}
+.ready button{
+    padding: 15px 50px;
+    background-color: hsl(321, 100%, 78%);
+    border: none;
+    border-radius: 2em;
+    margin-top: 2em;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 3px 13px rgba(0,0,0,0.2);
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    margin-top: -.3em;
+    padding: 40px;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    gap: 20rem;
+    margin-left: 4em;
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.contact-info{
+    width: 35%;
+}
+.phone, .email{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.social-logo{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+i{
+    width: 120%;
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    padding: 5px;
+}
+i:hover{
+    color: hsl(210, 83%, 59%);
+    cursor: pointer;
+}
+.text p,
+.phone p,
+.email p{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.newsletter{
+    width: 60%;
+}
+.newsletter h1{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.newsletter p{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.newsletter form input{
+    width: 40%;
+    padding: .5em 2em;
+    border-radius: 5px;
+    border: none;
+}
+.newsletter form input:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 13px rgba(0,0,0,0.2);
+    transition: ease-in-out 1s;
+}
+.newsletter form button{
+    padding: .5em 2em;
+    margin-left: .5em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    
+    .build h1{
+        text-align: center;
+        font-size: 2em;
+    }
+    .build p{
+        font-size: 1em;
+    }
+    .build-number{
+        gap: 10em;
+    }
+    .grow{
+        flex-direction: column-reverse;
+        gap: 5em;
+    }
+    .grow-image, .grow-text{
+        width: 100%;
+    }
+    .grow-image img{
+        width: 80%;
+        margin-left: 2em;
+    }
+    .grow-text{
+        text-align: center;
+        margin-left: -.5em;
+    }
+    .grow-text h1{
+        font-size: 2em;
+    }
+    .grow-text p{
+        font-size: 1em;
+    }
+    .reverse{
+        flex-direction: column;
+        gap: 5em;
+    }
+    .rev-image, .rev-text{
+        width: 100%;
+    }
+    .rev-image img{
+        width: 80%;
+        margin-left: 2em;
+    }
+    .rev-text{
+        text-align: center;
+        margin-left: -.5em;
+    }
+    .rev-text h1{
+        font-size: 2em;
+    }
+    .ready h1{
+        font-size: 2em;
+    }
+    .footer{
+        flex-direction: column-reverse;
+        gap: 10em;
+    }
+    .newsletter, .contact-info{
+        width: 100%;
+    }
+    .contact-info{
+        text-align: center;
+        margin-left: -4em;
+    }
+    .contact, .social-logo{
+        margin-left: 10em;
+    }
+}
+
+
+@media (max-width: 500px) {
+    
+    .logo-image img{
+        width: 70%;
+    }
+    .build-number{
+        gap: 5em;
+    }
+    .grow-text p,
+    .rev-text p{
+        font-size: .9em;
+    }
+    .contact, .social-logo{
+        transform: translateX(-60px);
+    }
+}
+
+@media (max-width: 400px) {
+    
+    .logo-image img{
+        width: 50%;
+    }
+    .btn button{
+        padding: 4px 8px;
+        font-size: 10px;
+        width: 80px;
+    }
+    .build h1{
+        font-size: 1.5em;
+        margin-left: -.5em;
+    }
+    .build p{
+        font-size: .67em;
+    }
+    .build img{
+        width: 90%;
+    }
+    .build-number{
+        flex-direction: column;
+    } 
+    .number img{
+        width: 20%;
+    }
+    .number h1{
+        font-size: 2.5em;
+    }
+    .grow-text h1{
+        font-size: 1.5em;
+    }
+    .grow-text p{
+        font-size: 14px;
+    }
+    .rev-text h1{
+        font-size: 1.3em;
+    }
+    .ready h1{
+        font-size: 1.5em;
+    }
+    .newsletter{
+        margin-left: -5.5em;
+    }
+    .newsletter form input{
+        width: 100%;
+    }
+    form button{
+        width: 60%;
+        margin-top: .5em;
+        transform: translateX(73px);
+    }
+    .newsletter h1{
+        font-size: 1em;
+    }
+    .newsletter p{
+        font-size: .6em;
+    }
+    .contact-info .image img{
+        width: 80%;
+    }
+    .text p{
+        font-size: .72em;
+    }
+    .social-logo, .contact{
+        margin-left: 4em;
+    }
+    .contact p{
+        font-size: .5em;
+    }
+    .social-logo{
+        margin-top: 1em;
+    }
+
+}
